@@ -4,3 +4,89 @@
 - <code>state_names.csv</code> - https://www.kaggle.com/datasets/francescopettini/us-state-names-codes-and-abbreviations/
 - <code>covid_counties_2022.csv</code> - https://www.covidactnow.org/?s=47813529
 - <code>Project_1_Educational_Data.csv</code> - 
+
+
+
+Project Goals and Research Questions:
+The purpose of this project was to examine correlates of COVID infections, hospitalization rates, deaths, and vaccinations within the US in 2022. 
+
+RQ1: Are there any differences COVID infection and vaccination rates between lower poverty and higher poverty counties?
+RQ2: Which states have the highest vaccination and infection rates?
+RQ3: Which counties in the US had the highest/lowest infection and vaccination rates?
+RQ4: Does vaccination rate predict infection and hospitalization rates?
+RQ5: Do educational attainment differences within counties predict vaccination and infection rates?
+
+
+Data Sources and Research Methods:
+The methods used in this project were purely correlational, using multiple existing data bases. 
+
+The level of analysis used in this project was a geographic-based grouped level rather than single person or individual based. 
+All data points used were collapsed at the county level. 
+
+Multiple data sources were used and blended together into a data frame for this project. 
+Data on COVID cases, deaths, vaccinations, etc. was provided by covidactnow.org.(https://covidactnow.org/data-api)
+Data on educational attainment was provided by the US Census Bureau. (https://data.census.gov/table/ACSST1Y2022.S1501?q=educational+attainment)
+Data on poverty level was also provided by the US Census Bureau. (https://data.census.gov/table?q=poverty)
+State abbreviations were provided by kaggle.com. (https://www.kaggle.com/datasets/francescopettini/us-state-names-codes-and-abbreviations/)
+
+Analysis of Data:
+RQ1- - 
+In this section, determine if there are any differences in COVID infection and vaccination rates between a lower and higher poverty counties in Virginia state in US using the 2021 poverty data available.
+Note that even though the poverty data was pulled using the 2021 data for Virginia versus the COVID data was from 2022, the poverty data should relatively be the same for 2022 since the change in poverty rate would not change drastically within one year
+Based on the observation below, there is a significant correlation between poverty and vaccination rate (r=-0.35 p< 0.05) in the counties listed for Virginia. 
+There is an overall increase in vaccination from lower poverty county to a higher poverty county. 
+Even though there is not a lot of variation for the vaccination completed rate which could be due to the lack of reporting, the data is still signifcant.
+
+Additionally, the infection rates vs poverty rates showed a significant positive correlation (r= 0.49, p<0.05).
+Poverty does have a significant relationship with the infection rate. 
+This could be due to the lack of medical supplies, facilities (hospital beds/treatment centers), and prevention.
+
+RQ2-
+To examine the highest and lowest vaccination rates, the percentge of the population vaccinated was examined, and the highest and lowest percentages were recorded. It should be noted that some of the data appeared to have errors because 3 states showed no vaccinations at all.
+Vaccination rates were highest among Connecticut, Maine, and Puerto Rico, which all had vaccination rates higher than 80%, and were lowest in Alabama, Georgia, and Wyoming, which all showed vaccination around 50%. 
+
+Highest and lowest case percentages were examined using the percentage of the population that had COVID in 2022. The highest and lowest percentages were recorded.
+Cases were highest in Alaska, Rhode Island, and North Dakota, where cases were around 40%, and were lowest in Maryland, Oregon, and Maine, that all had percentages below 25%.
+
+
+RQ3-
+
+
+RQ4-
+To test the relationship between vaccination rates and COVID outcomes, correlation and regression were used.
+First, after removing a univariate outlier on vaccination rate, a linear regression was run examining the relationship between vaccination percentages and infection rates. 
+The regression was significant (r=--0.33, p<0.05). 
+This indicated that higher vaccination rates within a county corresponded to lower infection rates. 
+
+Second, to examine the relationship between vaccination percentages and hospitalizations, a regression was run between the two constructs. 
+The relationship was significant and positive, but small (r = 0.13, p<0.05). 
+Bed usage was higher for counties with higher vaccination. 
+The latter finding should be taken with a grain of salt, however. Most counties did not report data on hospitalizations, and a several counties showed bed usage numbers well above 100%. 
+
+RQ5- 
+Research question 5 included 2 sub-components. The first question examines the relationship between educational attainment and infection rates. 
+To examine this, a linear regression was run examining the relationship between percentage of the county population with a Bachelor's degree and percentage of the population getting COVID in 2022.
+The regression revealed a significant relationship between the two (r =-0.25, p<0.05). The regression equation for this relationship was y=0.12*x+34.97.
+Counties that had higher percentage of Bachelor's degree educated people showed significantly lower COVID infection percentages. 
+
+To further examine this research question, COVID mortality rates were also examined. Thus, this parat of the question examines the relationship between educational attainment and mortality rates. 
+To examine this, a linear regression was run examining the relationship between percentage of the county population with a Bachelor's degree and percentage of the population that passed away from COVID in 2022.
+The regression revealed a significant relationship between the two (r =-0.17, p<0.05). The regression equation for this relationship was y=-0.0*x+0.22.
+Counties that had higher percentage of Bachelor's degree educated people showed significantly lower COVID mortality percentages. 
+
+The second question examines the relationship between educational attainment and vaccination rates. To examine this, two additional analyses were run looking at vaccination rates and booster rates. 
+To examine the former, a linear regression was run examining the relationship between percentage of the county population with a Bachelor's degree and percentage of the population that was vaccinated from COVID in 2022.
+The regression revealed a significant relationship between the two (r =0.62, p<0.05). The regression equation for this relationship was y=0.67*x+39.9.
+Counties that had higher percentage of Bachelor's degree educated people showed significantly higher vaccination percentages. 
+
+Similar results for found for booster rates. A linear regression was run examining the relationship between percentage of the county population with a Bachelor's degree and percentage of the population that had recieved a booster for COVID by 2022.
+The regression revealed a significant relationship between the two (r =0.64, p<0.05). The regression equation for this relationship was y=0.59*x+12.9.
+Counties that had higher percentage of Bachelor's degree educated people showed significantly higher booster percentages. 
+
+
+
+Discussion:
+In general, the extant data shows that poverty and education predict vaccination, infection, and mortality rates. More specifically, vaccination rates were higher in more educated counties with less poverty, in turn showing lower infection rates and mortality rates. 
+There are multiple potential explanations to this. One explanation could've been resource differences. Counties higher in education and lower in poverty are likely more wealthy overall, meaning plausibly easier access to quality healthcare, better information flow from doctors and medical experts, and possibly more work flexibility (i.e., telework). 
+Another explanation could be around knowledge and/or willingness to trust medical experts. The ultimate goal of most baccalaureate is to enhance critical thinking and analysis skills. Perhaps people in more educated counties were better equipped to sort out fact from fiction around the virus. 
+However, in both cases, more data is needed to conclusively support or refute either of these explanations. 
