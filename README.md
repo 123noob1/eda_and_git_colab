@@ -84,7 +84,7 @@ Similar results for found for booster rates. A linear regression was run examini
 The regression revealed a significant relationship between the two (r =0.64, p<0.05). The regression equation for this relationship was y=0.59*x+12.9.
 Counties that had higher percentage of Bachelor's degree educated people showed significantly higher booster percentages. 
 
-### Discussion:
+## Discussion:
 In general, the extant data shows that poverty and education predict vaccination, infection, and mortality rates. More specifically, vaccination rates were higher in more educated counties with less poverty, in turn showing lower infection rates and mortality rates. 
 There are multiple potential explanations to this. One explanation could've been resource differences. Counties higher in education and lower in poverty are likely more wealthy overall, meaning plausibly easier access to quality healthcare, better information flow from doctors and medical experts, and possibly more work flexibility (i.e., telework). 
 
