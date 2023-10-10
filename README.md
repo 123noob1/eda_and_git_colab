@@ -10,6 +10,7 @@ The purpose of this project was to examine correlates of COVID infections, hospi
 <b>RQ5:</b> Do educational attainment differences within counties predict vaccination and infection rates?
 
 ### Data Sources and Research Methods:
+
 The methods used in this project were purely correlational, using multiple existing data bases. 
 
 The level of analysis used in this project was a geographic-based grouped level rather than single person or individual based. 
@@ -40,6 +41,7 @@ There is an overall increase in vaccination from lower poverty county to a highe
 Even though there is not a lot of variation for the vaccination completed rate which could be due to the lack of reporting, the data is still signifcant.
 
 Additionally, the infection rates vs poverty rates showed a significant positive correlation (r= 0.49, p<0.05).
+
 Poverty does have a significant relationship with the infection rate. This could be due to the lack of medical supplies, facilities (hospital beds/treatment centers), and prevention.
 
 ##### RQ2-
@@ -73,6 +75,7 @@ The latter finding should be taken with a grain of salt, however. Most counties 
 (See <code>Educational Analysis.ipynb</code>)
 
 Research question 5 included 2 sub-components. The first question examines the relationship between educational attainment and infection rates.
+
 
 To examine this, a linear regression was run examining the relationship between percentage of the county population with a Bachelor's degree and percentage of the population getting COVID in 2022.
 The regression revealed a significant relationship between the two (r =-0.25, p<0.05). The regression equation for this relationship was y=0.12*x+34.97.
