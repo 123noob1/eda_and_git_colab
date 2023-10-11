@@ -52,6 +52,16 @@ Cases were highest in Alaska, Rhode Island, and North Dakota, where cases were a
 The bottom five states in terms of vaccination were all in or near the southeastern region of the US while the four of the five states with the highest vaccination rates were in the northeastern US. No similar trend was found with COVID cases. 
 
 ### RQ3- (See <code>covid_max_min_analysis.ipynb</code>)
+Story County, NV has demonstrated a commendable effort in managing the COVID-19 pandemic, reporting a relatively low infection rate of 4.97%. All the lowest case counties were in western states that are less densely populated, and were generally not close to major cities (aside from Storey County, NV, which was somewhat close to Reno).
+
+North Arctic Borough, AK has experienced a significant COVID-19 outbreak, with  infection rate of 77.06%. This county and the others with the highest cases were in somewhat surprising areas. Three of the top 5 counties were in Alaska, and the other two were in Texas. 
+While the counties had a higher population compared to the lowest case counties, they were by no means highest density locations. None of them were in counties containing a large city.
+
+Norfolk City, VA stands out as a vaccination success story, with an impressive vaccination rate of 99.86%, reflecting a high level of community immunity. 
+Among the top remaining high vaccination counties, there was no emerging theme or similarity among the highest vaccinated counties. They varied in size, region, and distance from major cities.
+
+Slope County, ND is facing vaccination challenges, as it reports a low vaccination rate of 11.33%, highlighting the need for increased vaccination efforts in this region. 
+Among the lowest vaccinated counties, there’s not a lot of geographic similarity, but all of these counties are relatively rural, and not near any major cities.
 
 
 ### RQ4- (See <code>Hospitalization.ipynb</code> and <code>Vaccination to Hospitalization.ipynb</code>)
