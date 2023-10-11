@@ -49,6 +49,8 @@ The highest and lowest case percentages were examined using the percentage of th
 
 Cases were highest in Alaska, Rhode Island, and North Dakota, where cases were around 40%, and were lowest in Maryland, Oregon, and Maine, which all had percentages below 25%.
 
+The bottom five states in terms of vaccination were all in or near the southeastern region of the US while the four of the five states with the highest vaccination rates were in the northeastern US. No similar trend was found with COVID cases. 
+
 ### RQ3- (See <code>covid_max_min_analysis.ipynb</code>)
 
 
