@@ -90,4 +90,9 @@ There are multiple potential explanations to this. One explanation could've been
 
 Another explanation could be around knowledge and/or willingness to trust medical experts. The ultimate goal of most baccalaureate is to enhance critical thinking and analysis skills. Perhaps people in more educated counties were better equipped to sort out fact from fiction around the virus. 
 
-However, in both cases, more data is needed to conclusively support or refute either of these explanations. 
+However, in both cases, more data is needed to conclusively support or refute either of these explanations.
+
+## Navigation:
+- <code>CodeBase</code> folder contains all the working jupyter files
+- <code>Outputs</code> folder contains all the charts and cleaned up dataset files
+- <code>Resources</code> folder contains all the raw dataset files
